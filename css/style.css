@@ -1,0 +1,194 @@
+/* Define root variables  */
+
+:root {
+    --main-bg-color: #eee;
+    --main-txt-color: #333;
+    --main-header-color: #fff;
+    --shadow: 0 1;
+    --wrapper-width: 90%;
+    --wrapper-height: 300px;
+}
+
+.masthead {
+    --main-masthead-color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: var(--main-txt-color);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: var(--wrapper-width);
+}
+
+.masthead {
+    /* width: 100%; */
+    /* height: var(--wrapper-height); */
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    background: var(--main-masthead-color);
+}
+
+.mast {
+    width: 100%;
+    height: var(--wrapper-height);
+    background: #333 url(../images/sport-2250970_1920.jpg) no-repeat 0 -150px;
+    background-size: cover;
+    order: 0;
+}
+
+.social-media-wrapper {
+    display: flex;
+    height: var(--wrapper-height);
+    /* width: 100px; */
+    width: 100%;
+    background: var(--main-bg-color);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    order: 1;
+    /*#eee;*/
+}
+
+.social-media-wrapper div.fab-square {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    transition: all 1s;
+}
+
+.fab-square:hover,
+.fab:hover {
+    background: #ccc;
+    color: deepskyblue;
+}
+
+.fab {
+    /* text-align: center; */
+    width: 44px;
+    height: 44px;
+    color: var(--main-masthead-color);
+    transition: all 1s;
+    /* var(--main-header-color); */
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+}
+
+.about-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-gap: 0 20px;
+    /* align-items: center; */
+    border: 1px solid #eee;
+}
+
+.profile {
+    width: 100%;
+    height: 300px;
+    background: #eee;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 215px;
+    background: #fff;
+}
+
+.skills h3 {
+    margin: 0;
+    /* display: inline; */
+    /* margin-bottom: 20px; */
+    margin-bottom: 10px;
+}
+
+.skills h4 {
+    color: #063479;
+    text-align: center;
+}
+
+.card div.skills {
+    /* display: inline; */
+}
+
+.skills {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    /* background: #eee; */
+}
+
+.skills div.bar {
+    margin: 0 auto;
+    text-align: center;
+    height: 205px;
+    width: 30px;
+    background: #ddd;
+    /* var(--main-bg-color);
+color: #afacac; */
+}
+
+.progress {
+    margin-top: 10px;
+    justify-self: center;
+    align-self: end;
+}
+
+.percent {
+    background: #1da3cf;
+}
+
+.video-bg {
+    margin: 0px auto;
+    width: 100%;
+    height: 80px;
+    background: #333 url(../images/sport-2250970_1920.jpg) no-repeat 0 -150px;
+    background-size: cover;
+    text-align: center;
+}
+
+.video-bg .video-overlay {
+    width: 100%;
+    height: 80px;
+    background: black;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.video-overlay h1 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.video-overlay .fas {
+    color: #fff;
+    margin: 0px auto;
+    line-height: 80px;
+    transition: all 1s;
+}
+
+.video-overlay .fas:hover {
+    color: #26c;
+}
