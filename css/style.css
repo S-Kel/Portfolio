@@ -4,7 +4,7 @@
     --main-bg-color: #eee;
     --main-txt-color: #333;
     --main-header-color: #fff;
-    --shadow: 0 1;
+    --shadow: 5px 8px 5px rgba(0, 0, 0, 0.203);
     --wrapper-width: 90%;
     --wrapper-height: 300px;
 }
@@ -22,7 +22,7 @@
 body {
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
-    background: #fff;
+    background: #ddd;
     color: var(--main-txt-color);
 }
 
@@ -67,12 +67,14 @@ body {
     padding: 10px 0;
     text-align: center;
     border-bottom: 1px solid #ccc;
-    transition: all 1s;
+    transition: all 1s ease-in;
 }
 
-.fab-square:hover,
-.fab:hover {
+.fab-square:hover {
     background: #ccc;
+}
+
+.fab:hover {
     color: deepskyblue;
 }
 
@@ -94,9 +96,10 @@ body {
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
-    grid-gap: 0 20px;
+    grid-gap: 10px;
     /* align-items: center; */
     border: 1px solid #eee;
+    background: #efefef;
 }
 
 .profile {
@@ -112,8 +115,9 @@ body {
     align-content: center;
     justify-content: center;
     width: 100%;
-    height: 215px;
+    height: 250px;
     background: #fff;
+    padding: 0 10px;
 }
 
 .skills h3 {
@@ -126,6 +130,7 @@ body {
 .skills h4 {
     color: #063479;
     text-align: center;
+    padding: 0 1px;
 }
 
 .card div.skills {
@@ -191,4 +196,172 @@ color: #afacac; */
 
 .video-overlay .fas:hover {
     color: #26c;
+}
+
+.projects {
+    padding: 20px auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: #eee;
+}
+
+.projects h1 {
+    padding-top: 20px;
+}
+
+.works {
+    margin: 10px auto;
+    width: 100%;
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-item {
+    margin: 10px;
+    width: 33%;
+    height: 90%;
+    border: 1px solid #ddd;
+    background: #333;
+    box-shadow: var(--shadow);
+}
+
+.education {
+    margin: 0 auto;
+    padding: 20px auto;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+.accordion-toggle,
+.accordion-toggle2,
+.accordion-toggle3 {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.accordion,
+.accordion2,
+.accordion3 {
+    /* padding: 20px; */
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: center;
+    background: #fff;
+    max-height: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    transition: all .5s ease-out;
+    border: 1px solid #ddd;
+}
+
+.education h4 {
+    display: block;
+    background: #eee;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.education h1 {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+
+.education h4:hover {
+    cursor: pointer;
+}
+
+.open {
+    padding: 20px;
+    max-height: 400px;
+}
+
+.footer {
+    display: grid;
+    margin-top: 20px;
+    width: 100%;
+    height: 248px;
+    background: #333 url('/images/');
+    grid-template-columns: 7fr 3fr;
+    color: #eee;
+}
+
+.footer-master {
+    width: 100%;
+    height: auto;
+    background: yellow;
+}
+
+.footer-social {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border: 1px solid #888;
+    text-align: center;
+    /* background: yellow; */
+}
+
+.contactme {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    ;
+}
+
+.contactBtn {
+    font-size: 1.1rem;
+    border: none;
+    padding: 10px 60px;
+    color: #eee;
+    background: #333;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: all 1s ease-in;
+}
+
+.contactBtn:hover {
+    color: #333;
+    background: #eee;
+}
+
+.footer-sm {
+    margin: 0 auto;
+}
+
+.fas-footer {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    background: #eee;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: all 1s ease-in;
+}
+
+.fas-footer:hover {
+    background: #26c;
+}
+
+.fas-footer .fab {
+    padding: 0px;
+    color: #00bff3;
+    /* background: #efff; */
+}
+
+.fas-footer .fab:hover {
+    background: none;
+}
+
+.footer-social h3 {
+    margin: 20px auto;
 }
