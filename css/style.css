@@ -1,367 +1,484 @@
-/* Define root variables  */
-
-:root {
-    --main-bg-color: #eee;
-    --main-txt-color: #333;
-    --main-header-color: #fff;
-    --shadow: 5px 8px 5px rgba(0, 0, 0, 0.203);
-    --wrapper-width: 90%;
-    --wrapper-height: 300px;
-}
-
-.masthead {
-    --main-masthead-color: #333;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    line-height: 1.6;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ddd;
-    color: var(--main-txt-color);
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: var(--wrapper-width);
-}
-
-.masthead {
-    /* width: 100%; */
-    /* height: var(--wrapper-height); */
-    display: grid;
-    grid-template-columns: 9fr 1fr;
-    background: var(--main-masthead-color);
-}
-
-.mast {
-    width: 100%;
-    height: var(--wrapper-height);
-    background: #333 url(../images/sport-2250970_1920.jpg) no-repeat 0 -150px;
-    background-size: cover;
-    order: 0;
-}
-
-.social-media-wrapper {
-    display: flex;
-    height: var(--wrapper-height);
-    /* width: 100px; */
-    width: 100%;
-    background: var(--main-bg-color);
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    order: 1;
-    /*#eee;*/
-}
-
-.social-media-wrapper div.fab-square {
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 0;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-    transition: all 1s ease-in;
-}
-
-.fab-square:hover {
-    background: #ccc;
-}
-
-.fab:hover {
-    color: deepskyblue;
-}
-
-.fab {
-    /* text-align: center; */
-    width: 44px;
-    height: 44px;
-    color: var(--main-masthead-color);
-    transition: all 1s;
-    /* var(--main-header-color); */
-}
-
-.nav-bar {
-    width: 100%;
-    height: 100px;
-}
-
-.about-grid {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
-    grid-gap: 10px;
-    /* align-items: center; */
-    border: 1px solid #eee;
-    background: #efefef;
-}
-
-.profile {
-    width: 100%;
-    height: 300px;
-    background: #eee;
-}
-
-.card {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    height: 250px;
-    background: #fff;
-    padding: 0 10px;
-}
-
-.skills h3 {
-    margin: 0;
-    /* display: inline; */
-    /* margin-bottom: 20px; */
-    margin-bottom: 10px;
-}
-
-.skills h4 {
-    color: #063479;
-    text-align: center;
-    padding: 0 1px;
-}
-
-.card div.skills {
-    /* display: inline; */
-}
-
-.skills {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0px 20px;
-    /* background: #eee; */
-}
-
-.skills div.bar {
-    margin: 0 auto;
-    text-align: center;
-    height: 205px;
-    width: 30px;
-    background: #ddd;
-    /* var(--main-bg-color);
-color: #afacac; */
-}
-
-.progress {
-    margin-top: 10px;
-    justify-self: center;
-    align-self: end;
-}
-
-.percent {
-    background: #1da3cf;
-}
-
-.video-bg {
-    margin: 0px auto;
-    width: 100%;
-    height: 80px;
-    background: #333 url(../images/sport-2250970_1920.jpg) no-repeat 0 -150px;
-    background-size: cover;
-    text-align: center;
-}
-
-.video-bg .video-overlay {
-    width: 100%;
-    height: 80px;
-    background: black;
-    z-index: 1;
-    opacity: 0.5;
-}
-
-.video-overlay h1 {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-
-.video-overlay .fas {
-    color: #fff;
-    margin: 0px auto;
-    line-height: 80px;
-    transition: all 1s;
-}
-
-.video-overlay .fas:hover {
-    color: #26c;
-}
-
-.projects {
-    padding: 20px auto;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 400px;
-    text-align: center;
-    background: #eee;
-}
-
-.projects h1 {
-    padding-top: 20px;
-}
-
-.works {
-    margin: 10px auto;
-    width: 100%;
-    height: 325px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.work-item {
-    margin: 10px;
-    width: 33%;
-    height: 90%;
-    border: 1px solid #ddd;
-    background: #333;
-    box-shadow: var(--shadow);
-}
-
-.education {
-    margin: 0 auto;
-    padding: 20px auto;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    text-align: center;
-}
-
-.accordion-toggle,
-.accordion-toggle2,
-.accordion-toggle3 {
-    margin: 0 auto;
-    width: 100%;
-    border: 1px solid #fff;
-}
-
-.accordion,
-.accordion2,
-.accordion3 {
-    /* padding: 20px; */
-    margin: 0 auto;
-    font-size: 1.2rem;
-    text-align: center;
-    background: #fff;
-    max-height: 0;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    transition: all .5s ease-out;
-    border: 1px solid #ddd;
-}
-
-.education h4 {
-    display: block;
-    background: #eee;
-    text-align: center;
-    padding: 10px 20px;
-}
-
-.education h1 {
-    padding: 20px;
-    background: #fff;
-    margin-bottom: 5px;
-}
-
-.education h4:hover {
-    cursor: pointer;
-}
-
-.open {
-    padding: 20px;
-    max-height: 400px;
-}
-
-.footer {
-    display: grid;
-    margin-top: 20px;
-    width: 100%;
-    height: 248px;
-    background: #333 url('/images/');
-    grid-template-columns: 7fr 3fr;
-    color: #eee;
-}
-
-.footer-master {
-    width: 100%;
-    height: auto;
-    background: yellow;
-}
-
-.footer-social {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    border: 1px solid #888;
-    text-align: center;
-    /* background: yellow; */
-}
-
-.contactme {
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
-    ;
-}
-
-.contactBtn {
-    font-size: 1.1rem;
-    border: none;
-    padding: 10px 60px;
-    color: #eee;
-    background: #333;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    transition: all 1s ease-in;
-}
-
-.contactBtn:hover {
-    color: #333;
-    background: #eee;
-}
-
-.footer-sm {
-    margin: 0 auto;
-}
-
-.fas-footer {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0px auto;
-    text-align: center;
-    background: #eee;
-    line-height: 50px;
-    border-radius: 50%;
-    transition: all 1s ease-in;
-}
-
-.fas-footer:hover {
-    background: #26c;
-}
-
-.fas-footer .fab {
-    padding: 0px;
-    color: #00bff3;
-    /* background: #efff; */
-}
-
-.fas-footer .fab:hover {
-    background: none;
-}
-
-.footer-social h3 {
-    margin: 20px auto;
-}
+    /* Define root variables  */
+    
+     :root {
+        --main-bg-color: #eee;
+        --main-txt-color: #333;
+        --main-header-color: #fff;
+        --shadow: 5px 8px 5px rgba(0, 0, 0, 0.203);
+        --wrapper-width: 90%;
+        --wrapper-height: 300px;
+        --bg-secondary: #6c757d;
+        --bg-primary: #007bff;
+        --bg-success: #28a645;
+        --bg-danger: #dc3545;
+        --bg-warning: #ffc107;
+        --bg-info: #17a2b8;
+        --bg-light: #f8f9fa;
+        --bg-dark: #343a40;
+        --bg-white: #fff;
+    }
+    
+    .masthead {
+        --main-masthead-color: #333;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        line-height: 1.6;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ddd;
+        color: var(--main-txt-color);
+    }
+    
+    .wrapper {
+        margin: 0 auto;
+        width: var(--wrapper-width);
+    }
+    
+    .masthead {
+        display: grid;
+        grid-template-columns: 9fr 1fr;
+        background: var(--main-masthead-color);
+    }
+    
+    .mast {
+        width: 100%;
+        height: var(--wrapper-height);
+        background: #333 url(../images/sport-2250970_1920.jpg) no-repeat 0 -150px;
+        background-size: cover;
+        order: 0;
+    }
+    
+    .social-media-wrapper {
+        display: flex;
+        height: var(--wrapper-height);
+        width: 100%;
+        background: var(--main-bg-color);
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        order: 1;
+        /*#eee;*/
+    }
+    
+    .social-media-wrapper div.fab-square {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        transition: all 1s ease-in;
+    }
+    
+    .fab-square:hover {
+        background: #ccc;
+    }
+    
+    .fab:hover {
+        color: deepskyblue;
+    }
+    
+    .fab {
+        /* text-align: center; */
+        width: 44px;
+        height: 44px;
+        color: var(--main-masthead-color);
+        transition: all 1s;
+        /* var(--main-header-color); */
+    }
+    
+    .nav-bar {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .about-grid {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+        grid-gap: 10px;
+        /* align-items: center; */
+        border: 1px solid #eee;
+        background: #efefef;
+    }
+    
+    .profile {
+        width: 100%;
+        height: 300px;
+        background: #eee;
+    }
+    
+    .card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 250px;
+        background: #fff;
+        padding: 0 10px;
+    }
+    
+    .skills h3 {
+        margin: 0;
+        /* display: inline; */
+        /* margin-bottom: 20px; */
+        margin-bottom: 10px;
+    }
+    
+    .skills h4 {
+        color: #063479;
+        text-align: center;
+        padding: 0 1px;
+    }
+    
+    .skills {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px 20px;
+        /* background: #eee; */
+    }
+    
+    .skills div.bar {
+        margin: 0 auto;
+        text-align: center;
+        height: 205px;
+        width: 30px;
+        background: #ddd;
+    }
+    
+    .progress {
+        margin-top: 10px;
+        justify-self: center;
+        align-self: end;
+    }
+    
+    .percent {
+        background: #1da3cf;
+    }
+    
+    .video-bg {
+        margin: 0px auto;
+        width: 100%;
+        height: 80px;
+        background: #333 url(../images/sport-2250970_1920.jpg) no-repeat 0 -150px;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .video-bg .video-overlay {
+        width: 100%;
+        height: 80px;
+        background: black;
+        z-index: 1;
+        opacity: 0.5;
+    }
+    
+    .video-overlay h1 {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .video-overlay .fas {
+        color: #fff;
+        margin: 0px auto;
+        line-height: 80px;
+        transition: all 1s;
+    }
+    
+    .video-overlay .fas:hover {
+        color: #26c;
+    }
+    
+    .projects {
+        padding: 20px auto;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        background: #eee;
+    }
+    
+    .projects h1 {
+        padding-top: 20px;
+    }
+    
+    .works {
+        margin: 10px auto;
+        width: 100%;
+        height: 325px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .work-item {
+        margin: 10px;
+        width: 33%;
+        height: 90%;
+        border: 1px solid #ddd;
+        background: #333;
+        box-shadow: var(--shadow);
+    }
+    
+    .education {
+        margin: 0 auto;
+        padding: 20px auto;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        text-align: center;
+    }
+    
+    .accordion-toggle,
+    .accordion-toggle2,
+    .accordion-toggle3 {
+        margin: 0 auto;
+        width: 100%;
+        border: 1px solid #fff;
+    }
+    
+    .accordion,
+    .accordion2,
+    .accordion3 {
+        /* padding: 20px; */
+        margin: 0 auto;
+        font-size: 1.2rem;
+        text-align: center;
+        background: #fff;
+        max-height: 0;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        transition: all .5s ease-out;
+        border: 1px solid #ddd;
+    }
+    
+    .education h4 {
+        display: block;
+        background: #eee;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    
+    .education h1 {
+        padding: 20px;
+        background: #fff;
+        margin-bottom: 5px;
+    }
+    
+    .education h4:hover {
+        cursor: pointer;
+    }
+    
+    .open {
+        padding: 20px;
+        max-height: 400px;
+    }
+    
+    .footer {
+        display: grid;
+        margin-top: 20px;
+        width: 100%;
+        height: 248px;
+        background: #333 url('/images/');
+        grid-template-columns: 7fr 3fr;
+        color: #eee;
+    }
+    
+    .footer-master {
+        width: 100%;
+        height: auto;
+        background: yellow;
+    }
+    
+    .footer-social {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border: 1px solid #888;
+        text-align: center;
+        /* background: yellow; */
+    }
+    
+    .contactme {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        ;
+    }
+    
+    .contactBtn {
+        font-size: 1.1rem;
+        border: none;
+        padding: 10px 60px;
+        color: #eee;
+        background: #333;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        transition: all 1s ease-in;
+    }
+    
+    .contactBtn:hover {
+        color: #333;
+        background: #eee;
+    }
+    
+    .footer-sm {
+        margin: 0 auto;
+    }
+    
+    .fas-footer {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 0px auto;
+        text-align: center;
+        background: #eee;
+        line-height: 50px;
+        border-radius: 50%;
+        transition: all 1s ease-in;
+    }
+    
+    .fas-footer:hover {
+        background: #26c;
+    }
+    
+    .fas-footer .fab {
+        padding: 0px;
+        color: #00bff3;
+        /* background: #efff; */
+    }
+    
+    .fas-footer .fab:hover {
+        background: none;
+    }
+    
+    .footer-social h3 {
+        margin: 20px auto;
+    }
+    /* Mobile styles */
+    
+    @media screen and (max-width: 500px) {
+        body {
+            background-color: #f09a9d;
+        }
+        /* Styling masthead section  */
+        .masthead {
+            height: var(--wrapper-height);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .mast {
+            height: 100%;
+        }
+        .social-media-wrapper {
+            display: flex;
+            flex-direction: row;
+            height: 64px;
+            box-shadow: var(--shadow);
+        }
+        .fab-square {
+            border-right: 1px solid #fff;
+        }
+        .fab {
+            font-size: 2.2rem;
+        }
+        /* Styles for About Section  */
+        .about-grid {
+            display: flex;
+            flex-direction: column;
+        }
+        .profile {
+            width: 100%;
+            background: yellow;
+        }
+        .about-me {
+            padding: 10px 20px;
+            margin: 1px auto;
+            color: var(--bg-light);
+            background: var(--bg-dark);
+        }
+        .skills {
+            width: 100%;
+            padding: 10px;
+            background: var(--bg-light);
+        }
+        .skills h3 {
+            font-size: 1.8rem;
+            color: var(--bg-secondary);
+            border-bottom: 2px solid var(--bg-secondary);
+            margin: 0 auto;
+        }
+        .card {
+            /* height: 300px; */
+            background: var(--bg-light);
+            box-shadow: var(--shadow);
+        }
+        /* Styles for Video overlay section  */
+        .video-overlay h1 {
+            display: none;
+        }
+        /* styles for Projects section  */
+        .projects {
+            margin: 0 auto;
+            color: var(--bg-secondary);
+            background: var(--bg-light);
+        }
+        .projects h1 {
+            font-size: 1.6rem;
+        }
+        .works {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .work-item {
+            /* border: none; */
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+            justify-self: stretch;
+            background: var(--bg-white);
+            border-bottom: 1px solid var(--bg-light);
+            box-shadow: none;
+        }
+        /* Style for Education Sector  */
+        .education h1 {
+            font-size: 1.6rem;
+            color: var(--bg-light);
+            background: var(--bg-warning);
+            margin: 0 auto;
+        }
+        /* Style for Footer Section  */
+        .footer {
+            margin: 0 auto;
+            display: flex;
+            flex: 1 auto;
+        }
+        .contactBtn {
+            font-size: .95rem;
+            padding: 5px 40px;
+            color: var(--bg-light);
+            background: var(--bg-primary);
+            border: 1px solid var(--bg-secondary);
+        }
+        .fas-footer {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .fas-footer .fab {
+            font-size: 0.85rem;
+        }
+    }
