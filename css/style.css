@@ -318,11 +318,22 @@ border-radius:4px 0 0 4px;
         .about-grid {
             padding: 20px;
             display: grid;
-            grid-template-columns: 1fr 3fr 2fr;
+            grid-template-columns: 2fr 3fr 2fr;
             grid-gap: 10px;
             /* align-items: center; */
             border: 1px solid #eee;
             background: #efefef;
+        }
+        
+        .about-grid .profile {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        
+        .about-grid .profile img {
+            width: 100%;
+            height: 100%;
         }
         
         .about-me p {
@@ -420,15 +431,27 @@ border-radius:4px 0 0 4px;
         
         .projects {
             padding: 20px auto;
-            margin-bottom: 0px;
             width: 100%;
             height: 380px;
             text-align: center;
             background: #eee;
+            margin: 0 auto;
         }
         
         .projects h1 {
             padding-top: 20px;
+        }
+        
+        .work-item h4 {
+            color: rgb(8, 250, 169);
+            margin-top: 10px;
+            padding: 0 25px;
+            text-align: center;
+        }
+        
+        .work-item p {
+            padding: 10px 25px;
+            text-align: justify;
         }
         
         .works {
@@ -443,10 +466,19 @@ border-radius:4px 0 0 4px;
         .work-item {
             margin: 0px auto;
             width: 33%;
-            height: 90%;
+            height: 100%;
             border-right: 1px solid #eee;
             background: var(--bg-light);
+            align-items: center;
+            padding: 10px 0;
             /* box-shadow: var(--shadow); */
+        }
+        
+        .work-item img {
+            display: block;
+            width: 90%;
+            height: 80%;
+            align-self: center;
         }
         
         .education {
@@ -454,7 +486,7 @@ border-radius:4px 0 0 4px;
             padding: 20px auto;
             width: 100%;
             height: 100%;
-            background: #fff;
+            background: var(--bg-secondary);
             text-align: center;
         }
         
@@ -490,8 +522,9 @@ border-radius:4px 0 0 4px;
         }
         
         .education h1 {
+            display: block;
             padding: 20px;
-            background: var(--bg-light);
+            background: var(--bg-white);
         }
         
         .education h4:hover {
@@ -695,7 +728,7 @@ border-radius:4px 0 0 4px;
             }
             .profile {
                 width: 100%;
-                background: yellow;
+                background: rgb(8, 250, 169);
             }
             .about-me {
                 padding: 10px 20px;
@@ -719,6 +752,9 @@ border-radius:4px 0 0 4px;
                 background: var(--bg-light);
                 box-shadow: var(--shadow);
             }
+            .percent {
+                background: rgb(8, 250, 169);
+            }
             /* Styles for Video overlay section  */
             .video-overlay h1 {
                 display: none;
@@ -732,6 +768,13 @@ border-radius:4px 0 0 4px;
             .projects h1 {
                 font-size: 1.6rem;
             }
+            .work-item h4 {
+                text-align: justify;
+            }
+            .work-item p {
+                padding: 10px 25px;
+                text-align: justify;
+            }
             .works {
                 display: flex;
                 flex-direction: column;
@@ -742,13 +785,27 @@ border-radius:4px 0 0 4px;
                 margin: 0 auto;
                 height: 100%;
                 width: 100%;
-                justify-self: stretch;
+                justify-self: center;
                 background: var(--bg-white);
                 border-bottom: 1px solid var(--bg-light);
                 box-shadow: none;
             }
+            .work-item img {
+                /* width: 90%;
+                height: 60%;
+                display: block; */
+            }
             /* Style for Education Sector  */
+            .education {
+                padding: 0px;
+                width: 100%;
+                height: 100%;
+                background: #eee;
+                /* margin-top: 30px; */
+            }
             .education h1 {
+                width: 100%;
+                height: 100%;
                 font-size: 1.6rem;
                 color: var(--bg-light);
                 background: var(--bg-warning);
@@ -815,9 +872,14 @@ border-radius:4px 0 0 4px;
                 font-size: 2.2rem;
             }
             /* Styles for About Section  */
-            .profile {
+            .about-grid .profile {
                 width: 100%;
-                background: yellow;
+                height: 100%;
+                ;
+            }
+            .about-grid .profile img {
+                /* width: 80%;
+                height: 100%; */
             }
             .about-grid {
                 display: flex;
