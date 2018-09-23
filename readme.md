@@ -6,7 +6,6 @@ Stephen Kel's Portfolio Website 2018
 https://github.com/S-Kel/Portfolio
 
 ## Description
-
 ### Purpose
 The purpose is to develop a portfolio static web App to meet diploma requirement, and be able to showcase my works to potential employers, students, and any relevant stakeholders.
 ### Functionality / features
@@ -64,22 +63,8 @@ A deeper understanding of key project requirements was undertaken by carefully g
 ![alt text](readmeImages/Wireframe_2.png)
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-- Internet has evolved considerably from its humble beginning in the 1972s.
-- 1973-1983, TCP/IP was developed standard setting model for data transmission between multiple networsk
-- The term internet was invented in 1982.
-- World Wide Wibe was invented by computer scientist, Sir Tim Berners
-- 1991, CERB launces the first website http://info.cern.ch/hypertext/www/TheProject.html
-- 1992, first internet dial-up service was introduced by Pipex
-- Daily Telegraph launched Britain's first newspaper website - tegraph.co.uk
-- 1999, p2p music file-sharing site Napster begins operation
-- 2000, Telewest launches the first mass-market broadband service
-- 2007, BBC launches TV and radio catch-up service iPlayer
-- 2007, first iPhone launches, delivering the internet in your pocket
-- In future, the internet of Things will fully mature allowing us to connect more our appliances to the internet
-- During 80s, networks widely deployed initially to support scientific research.
-- Early 1990s, invention of web made it more easier for users to 
-	- publish & access information- this set off rapid growth of the internet
--
+The internet has come along way since its inception in the 1970s. The period from 1980 to current ushers in major events including the development of TCP/IP, the invention of World Wide Web, the launching of the first website by CERB, the introduction of first dial-up service by Pipex, the launching of Britain's first internet news Website- tegraph.co.uk, the introduction of first peer-to-peer(P2P) Music file-sharing site by Napste, the launching of BBC TV and radio catch-up service iPlayer, and the launching of first iPhone delivering the internet in your pocket.
+
 
 2.  Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 3.  Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
