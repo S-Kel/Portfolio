@@ -56,7 +56,7 @@ A deeper understanding of key project requirements was undertaken by carefully g
 ![alt text](readmeImages/projectplan.png)
 ### Screenshots of Trello board(s)
 ![alt text](readmeImages/Trello_board_overall.png)
-![alt text](readmeImages/HTML_Trello_main.png)
+![alt text](readmeImages/HTML_Trello_main.PNG)
 ![alt text](readmeImages/CSS_Trello_main.png)
 ![alt text](readmeImages/JS_Trello.png)
 ![alt text](readmeImages/Wireframe.png)
