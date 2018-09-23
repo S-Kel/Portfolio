@@ -11,7 +11,7 @@ https://github.com/S-Kel/Portfolio
 The purpose is to develop a portfolio static web App to meet diploma requirement, and be able to showcase my works to potential employers, students, and any relevant stakeholders.
 ### Functionality / features
 Currently, the App displays the following at minimum:
-My name and contact details.
+* My name and contact details.
 * Links to social media such as Github, twitter, Google+, LinkedIn, Youtube
 * A brief Bio demonstrating my personality
 * Professional Skills in a Progressive Form
