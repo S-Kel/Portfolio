@@ -19,7 +19,7 @@ Currently, the App displays the following at minimum:
 
 ### Sitemap
 ### Screenshots
-
+![alt text](readmeImages/portfolio.PNG)
 ### Target audience
 * Potential Employers
 * Lecturers
