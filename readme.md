@@ -71,6 +71,4 @@ Domains refers to names of the website or URL and sometimes called the host name
 
 
 3.  Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
-- internet has revolutionized the computer & communications world
-- Internet has revolutinizeed broadcasting capability, information dissimination, collaboration and interaction between individuals and their PC
-- 
+The inernet has revolutionized the computer & communications world enormously more importantly it has revolutinizeed broadcasting capability, information dissimination, collaboration and interaction between individuals and their PC.
