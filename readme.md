@@ -67,6 +67,9 @@ The internet has come along way since its inception in the 1970s. The period fro
 
 
 2.  Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+Domains refers to names of the website or URL and sometimes called the host name, and easy to remember than IP Address of website. Web servers are Computers that are usually set up in facilities called data centers and operated by hosting companies to store websites that people can visit on the internet. Webservers communicate with many browsers on many computers at all time to serve files, as requested. Domains Name System converts translates domain names into IP Address thus allowing access internet location by its domain name. The Web Browsers i.e. firefox, Safari, Chrome, Internet Explorer are responsible for reading the files stored on web servers and convert files into images and text to view. Web Browsers communicate with web servers to bring information from the internet.
+
+
 3.  Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 - internet has revolutionized the computer & communications world
 - Internet has revolutinizeed broadcasting capability, information dissimination, collaboration and interaction between individuals and their PC
