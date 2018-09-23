@@ -44,7 +44,7 @@ Prior to commencement,  a design process was chosen to deliver portfolio website
 6. Future considerations including Site maintenance & scalability
 
 ### Wireframes
-![alt text](readmeImages/wireframe 2.png)
+![alt text](readmeImages/wireframe2.png)
 
 ### Personal logo (optional)
 ![alt text](readmeImages/logo.png)
@@ -55,10 +55,10 @@ A deeper understanding of key project requirements was undertaken by carefully g
 ### Project plan & timeline
 ![alt text](readmeImages/projectplan.png)
 ### Screenshots of Trello board(s)
-![alt text](readmeImages/Trello board overall.png)
-![alt text](readmeImages/HTML Trello main.png)
-![alt text](readmeImages/CSS Trello main.png)
-![alt text](readmeImages/JS Trello.png)
+![alt text](readmeImages/Trello_board_overall.png)
+![alt text](readmeImages/HTML_Trello_main.png)
+![alt text](readmeImages/CSS_Trello_main.png)
+![alt text](readmeImages/JS_Trello.png)
 ![alt text](readmeImages/Wireframe.png)
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
