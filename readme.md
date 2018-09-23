@@ -59,8 +59,8 @@ A deeper understanding of key project requirements was undertaken by carefully g
 ![alt text](readmeImages/HTML_Trello_main.PNG)
 ![alt text](readmeImages/CSS_Trello_main.PNG)
 ![alt text](readmeImages/JS_Trello.PNG)
-![alt text](readmeImages/Wireframe2.png)
-![alt text](readmeImages/Wireframes.png)
+![alt text](readmeImages/Wireframe_1.png)
+![alt text](readmeImages/Wireframe_2.png)
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 - Internet has evolved considerably from its humble beginning in the 1972s.
