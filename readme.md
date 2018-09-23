@@ -55,11 +55,11 @@ A deeper understanding of key project requirements was undertaken by carefully g
 ### Project plan & timeline
 ![alt text](readmeImages/projectplan.png)
 ### Screenshots of Trello board(s)
-![alt text](readmeImages/Trello_board_overall.png)
+![alt text](readmeImages/Trello_board_overall.PNG)
 ![alt text](readmeImages/HTML_Trello_main.PNG)
-![alt text](readmeImages/CSS_Trello_main.png)
-![alt text](readmeImages/JS_Trello.png)
-![alt text](readmeImages/Wireframe.png)
+![alt text](readmeImages/CSS_Trello_main.PNG)
+![alt text](readmeImages/JS_Trello.PNG)
+![alt text](readmeImages/Wireframe.PNG)
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 - Internet has evolved considerably from its humble beginning in the 1972s.
