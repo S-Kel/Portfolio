@@ -1,28 +1,59 @@
 // alert("H.....")
+(function() {
+    // Get modal element
+    var modal = document.getElementById('simpleModal');
 
-var trigger = document.querySelector('.accordion-toggle');
-var accordion = document.querySelector('.accordion');
+    // Get open modal button
+    var modalBtn = document.getElementById('modalBtn');
 
-trigger.addEventListener('click', function() {
-    accordion.classList.toggle('open');
-    console.log(accordion);
-});
+    // Get close button
+    var closeBtn = document.querySelector('.closeBtn');
 
-var trigger2 = document.querySelector('.accordion-toggle2');
-var accordion2 = document.querySelector('.accordion2');
+    // Listen for outside clicked
+    window.addEventListener('click', function(evt) {
+        if (evt.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
 
-trigger2.addEventListener('click', function() {
-    accordion2.classList.toggle('open');
-    console.log(accordion);
-});
+    // Listen for open click event
+    modalBtn.addEventListener('click', function() {
+        modal.style.display = 'block';
+    });
 
-var trigger3 = document.querySelector('.accordion-toggle3');
-var accordion3 = document.querySelector('.accordion3');
 
-trigger3.addEventListener('click', function() {
-    accordion3.classList.toggle('open');
-    console.log(accordion);
-});
+    // Listen for close click event
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+})();
+
+(function() {
+    var trigger = document.querySelector('.accordion-toggle');
+    var accordion = document.querySelector('.accordion');
+
+    trigger.addEventListener('click', function() {
+        accordion.classList.toggle('open');
+        console.log(accordion);
+    });
+
+    var trigger2 = document.querySelector('.accordion-toggle2');
+    var accordion2 = document.querySelector('.accordion2');
+
+    trigger2.addEventListener('click', function() {
+        accordion2.classList.toggle('open');
+        console.log(accordion);
+    });
+
+    var trigger3 = document.querySelector('.accordion-toggle3');
+    var accordion3 = document.querySelector('.accordion3');
+
+    trigger3.addEventListener('click', function() {
+        accordion3.classList.toggle('open');
+        console.log(accordion);
+    });
+})();
+
 
 // document.querySelectorAll('.card-header').forEach(function(elements) {
 //     elements.addEventListener('click', function() {
