@@ -44,7 +44,7 @@ Prior to commencement,  a design process was chosen to deliver portfolio website
 6. Future considerations including Site maintenance & scalability
 
 ### Wireframes
-![alt text](readmeImages/wireframe2.png)
+![alt text](readmeImages/wireframe.png)
 
 ### Personal logo (optional)
 ![alt text](readmeImages/logo.png)
