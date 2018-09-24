@@ -453,7 +453,8 @@ border-radius:4px 0 0 4px;
         
         .work-item p {
             padding: 10px 25px;
-            text-align: justify;
+            text-align: left;
+            /* text-align: justify; */
         }
         
         .works {
@@ -786,7 +787,7 @@ border-radius:4px 0 0 4px;
             }
             .work-item p {
                 padding: 10px 25px;
-                text-align: justify;
+                text-align: left;
             }
             .works {
                 display: flex;
