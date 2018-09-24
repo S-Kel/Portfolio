@@ -526,7 +526,6 @@ border-radius:4px 0 0 4px;
             padding: 20px;
             color: var(--bg-light);
             background: #40a0ff;
-            box-shadow: var(--shadow);
             /* background: var(--bg-white); */
         }
         
