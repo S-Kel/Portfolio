@@ -830,7 +830,8 @@ border-radius:4px 0 0 4px;
                 font-size: 0.8rem;
             }
             .contactBtn {
-                font-size: .95rem;
+                /* font-size: .95rem; */
+                font-size: .75rem;
                 padding: 5px 40px;
                 color: var(--bg-light);
                 background: var(--bg-primary);
