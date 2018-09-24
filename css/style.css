@@ -267,8 +267,9 @@ border-radius:4px 0 0 4px;
         }
         
         .intro-body .contactBtn:first-child {
-            background: var(--bg-danger);
+            background: dodgerblue;
             margin-right: 30px;
+            border: none;
         }
         
         .intro-body .contactBtn:first-child:hover {
@@ -475,7 +476,7 @@ border-radius:4px 0 0 4px;
             border-right: 1px solid #eee;
             background: var(--bg-light);
             align-items: center;
-            padding: 10px 0;
+            padding-top: 10px;
             /* text-align: center; */
             /* box-shadow: var(--shadow); */
         }
@@ -949,6 +950,7 @@ border-radius:4px 0 0 4px;
                 margin: 1px auto;
                 box-shadow: none;
                 align-items: flex-start;
+                /* flex-wrap: wrap; */
             }
             .work-item:nth-child(1) {
                 order: 1;
