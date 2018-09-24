@@ -524,7 +524,10 @@ border-radius:4px 0 0 4px;
         .education h1 {
             display: block;
             padding: 20px;
-            background: var(--bg-white);
+            color: var(--bg-light);
+            background: #40a0ff;
+            box-shadow: var(--shadow);
+            /* background: var(--bg-white); */
         }
         
         .education h4:hover {
