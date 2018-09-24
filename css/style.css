@@ -803,19 +803,22 @@ border-radius:4px 0 0 4px;
                 box-shadow: none;
             }
             .work-item:nth-child(1) {
-                order: 0;
+                order: 1;
                 /* background: yellow; */
             }
-            .work-item:nth-child(3) {
-                order: 4;
-            }
             .work-item:nth-child(2) {
+                order: 3;
+            }
+            .work-item:nth-child(3) {
                 order: 1;
+            }
+            .work-item:nth-child(4) {
+                order: 0;
             }
             .work-item img {
                 /* width: 90%;
-                height: 60%;
-                display: block; */
+                height: 100%; */
+                /* display: block; */
             }
             /* Style for Education Sector  */
             .education {
@@ -942,10 +945,30 @@ border-radius:4px 0 0 4px;
             .work-item {
                 flex: 1 auto;
                 width: 45%;
-                height: 67%;
+                height: 60%;
                 margin: 1px auto;
                 box-shadow: none;
+                align-items: flex-start;
             }
+            .work-item:nth-child(1) {
+                order: 1;
+                /* background: yellow; */
+            }
+            .work-item:nth-child(2) {
+                order: 0;
+                align-self: flex-start;
+            }
+            .work-item:nth-child(3) {
+                order: 3;
+            }
+            .work-item:nth-child(4) {
+                order: 2;
+            }
+            /* .work-item img {
+                width: 90%;
+                height: 60%;
+                ;
+            } */
             /* Style for Education Sector  */
             .education h1 {
                 color: var(--bg-light);
