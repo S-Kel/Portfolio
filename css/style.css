@@ -432,7 +432,8 @@ border-radius:4px 0 0 4px;
         .projects {
             padding: 20px auto;
             width: 100%;
-            height: 380px;
+            height: 100%;
+            /* height: 380px; */
             text-align: center;
             background: #eee;
             margin: 0 auto;
@@ -457,8 +458,12 @@ border-radius:4px 0 0 4px;
         .works {
             margin: 10px auto;
             width: 100%;
-            height: 325px;
+            height: auto;
+            /* height: 100%; */
+            /* height: 325px; */
+            height: auto;
             display: flex;
+            /* justify-content: center; */
             justify-content: space-around;
             align-items: center;
         }
@@ -471,14 +476,19 @@ border-radius:4px 0 0 4px;
             background: var(--bg-light);
             align-items: center;
             padding: 10px 0;
+            /* text-align: center; */
             /* box-shadow: var(--shadow); */
         }
         
+        .work-item:nth-child(2) {
+            box-shadow: var(--shadow);
+        }
+        
         .work-item img {
-            display: block;
-            width: 90%;
-            height: 80%;
-            align-self: center;
+            /* display: block; */
+            width: 100%;
+            height: 100%;
+            /* align-self: center; */
         }
         
         .education {
@@ -779,7 +789,7 @@ border-radius:4px 0 0 4px;
             }
             .works {
                 display: flex;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 align-items: center;
             }
             .work-item {
@@ -791,6 +801,16 @@ border-radius:4px 0 0 4px;
                 background: var(--bg-white);
                 border-bottom: 1px solid var(--bg-light);
                 box-shadow: none;
+            }
+            .work-item:nth-child(1) {
+                order: 0;
+                /* background: yellow; */
+            }
+            .work-item:nth-child(3) {
+                order: 4;
+            }
+            .work-item:nth-child(2) {
+                order: 1;
             }
             .work-item img {
                 /* width: 90%;
