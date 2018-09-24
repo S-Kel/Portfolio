@@ -1,7 +1,7 @@
 # My Portfolio
 Stephen Kel's Portfolio Website 2018
 ## Link to portfolio
-
+https://s-kel.github.io/Portfolio/
 ## Link to GitHub repo
 https://github.com/S-Kel/Portfolio
 
