@@ -1,5 +1,5 @@
 # My Portfolio
-Stephen Kel's Portfolio Website 2018
+Portfolio Website Student Project 2018
 ## Link to portfolio
 https://s-kel.github.io/Portfolio/
 ## Link to GitHub repo
@@ -15,7 +15,7 @@ The main objectives for designing portfolio include:
 
 ### Functionality / features
 Key features of this portfolio include the following at minimum:
-* Lame and contact details.
+* Name and contact details.
 * Personal Bio demonstrating personality & 
 * Professional skillset
 * Education & Work history
