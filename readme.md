@@ -6,7 +6,7 @@ https://s-kel.github.io/Portfolio/
 https://github.com/S-Kel/Portfolio
 
 ## Description
-A portfolio website is a greatway to demonstrate personal abilities and skillset to gain more business and build professional brand. This website has been designed, built and deployed to showcase personal talent and skillset or coding experience.
+A portfolio website is a greatway to demonstrate personal abilities and skillset to gain more business and build professional brand. This website has been designed, built and deployed to showcase these skillset and coding experience.
 ### Purpose
 The main objectives for the portfolio include:
 * showcasing personal skillset
