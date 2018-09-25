@@ -17,7 +17,7 @@ Currently, the App displays the following at minimum:
 * Education & Work history
 
 ### Sitemap
-`sitemap.xml`
+https://github.com/S-Kel/Portfolio/sitemap.xml
 ![alt text](sitemap.xml)
 ### Screenshots
 ![alt text](readmeImages/portfolio.PNG)
