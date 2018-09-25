@@ -1,5 +1,5 @@
-# My Portfolio
-Portfolio Website Student Project 2018
+# Portfolio
+Student Portfolio Website Project 2018
 ## Link to portfolio
 https://s-kel.github.io/Portfolio/
 ## Link to GitHub repo
