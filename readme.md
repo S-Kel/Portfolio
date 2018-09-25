@@ -17,6 +17,8 @@ Currently, the App displays the following at minimum:
 * Education & Work history
 
 ### Sitemap
+`sitemap.xml`
+![alt text](sitemap.xml)
 ### Screenshots
 ![alt text](readmeImages/portfolio.PNG)
 ### Target audience
@@ -30,6 +32,8 @@ A range of Tech stack were used to develop a static application. This includes:
 * HTML for the portfolio Layout
 * CSS for styling the App
 * JavaScript to add desired behaviors to the Pages.
+* Git
+* XML Sitemap Generator
 In future, dynamic features will be added to add dynamism & scalability to the App. This expected to happen after learning Ruby on rails and Node & Reacts in the next semesters. 
 
 ## Design documentation
