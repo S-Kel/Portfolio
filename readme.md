@@ -20,19 +20,17 @@ Currently, the App displays the following at minimum:
 https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-<url>
-  <loc>https://s-kel.github.io/Portfolio/</loc>
-  <lastmod>2018-09-24T04:18:41+00:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-
-
+    <urlset
+          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <url>
+        <loc>https://s-kel.github.io/Portfolio/</loc>
+        <lastmod>2018-09-24T04:18:41+00:00</lastmod>
+        <changefreq>always</changefreq>
+    </url>
 </urlset>
 ```
 ### Screenshots
