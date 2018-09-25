@@ -67,7 +67,7 @@ A thorough design process was selected to ensure a successful completion of the 
 5. Undertake the site testing  and launch
 6. Future considerations including Site maintenance & scalability
 ### Wireframes
-Here are the design wireframes
+The site wireframes were hand sketched and later converted to design moodboards in photoshops. 
 ![alt text](readmeImages/wireframe.PNG)
 
 ### Personal logo (optional)
