@@ -7,14 +7,19 @@ https://github.com/S-Kel/Portfolio
 
 ## Description
 ### Purpose
-The purpose is to develop a portfolio static web App to meet diploma requirement, and be able to showcase my works to potential employers, students, and any relevant stakeholders.
+The main objectives for designing portfolio include:
+* showcasing personal skillset
+* showcasing completed projects & achievements
+* gaining valuable experience by design & building website 
+* meeting the college's certification requirement
+
 ### Functionality / features
-Currently, the App displays the following at minimum:
-* My name and contact details.
-* Links to social media such as Github, twitter, Google+, LinkedIn, Youtube
-* A brief Bio demonstrating my personality
-* Professional Skills in a Progressive Form
+Key features of this portfolio include the following at minimum:
+* Lame and contact details.
+* Personal Bio demonstrating personality & 
+* Professional skillset
 * Education & Work history
+* Links Github, twitter, Google+, LinkedIn, Youtube
 
 ### Sitemap
 https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
@@ -36,6 +41,7 @@ https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
 ### Screenshots
 ![alt text](readmeImages/portfolio.PNG)
 ### Target audience
+The main target audience are:
 * Potential Employers
 * Lecturers
 * Students
@@ -46,27 +52,28 @@ A range of Tech stack were used to develop a static application. This includes:
 * HTML for the portfolio Layout
 * CSS for styling the App
 * JavaScript to add desired behaviors to the Pages.
-* Git
+* Git for version control & code repository
 * XML Sitemap Generator
 In future, dynamic features will be added to add dynamism & scalability to the App. This expected to happen after learning Ruby on rails and Node & Reacts in the next semesters. 
 
 ## Design documentation
+The design has been thoroughly documented from the initiation to final phase. All the relevant documents have been included in the final submission. Key technology tools such as Trello were used to aid with project management & planning.
 ### Design process
-Prior to commencement,  a design process was chosen to deliver portfolio website in the following stages: 
+A thorough design process was selected to ensure a successful completion of the portfolio website. The following are the setps: 
 1. Define the Portfolio Website
-2. Scope the Portfolio website
-3. Develop initial Visual Design using wireframe & moodboard
+2. Scope the website
+3. Prepare Visual Design using wireframe & moodboard
 4. Undertake the site development
 5. Undertake the site testing  and launch
 6. Future considerations including Site maintenance & scalability
-
 ### Wireframes
+Here are the design wireframes
 ![alt text](readmeImages/wireframe.PNG)
 
 ### Personal logo (optional)
 ![alt text](readmeImages/logo.png)
 ### Usability considerations
-
+Usability or user experience was one of the key considerations throughout the design and implementation stages of this portfolio website. A simple but easy to use portfolio sleek layout was selected and implemented to ensure that site visitors can accurately and quickly complete their top tasks while navigating the site.
 ## Details of planning process
 A deeper understanding of key project requirements was undertaken by carefully going through the Portfolio guideline document to gauge the the project scope, and identified the targeted audience. A clear project scope of work was then developed followed by brainstorming and researching to select the desired page layout, and other relevant visual design effect.  Utilizing the project scope, the Design was then broken down into small deliverable tasks and cards with clear deadlines, and the trello web Application was used to aid with planning process. A Project was then created on the development PC as well as on Github including the associated  folders and Repos before moving on the project implementation stage. Project wireframes were hand sketched, and photoshop was used to prepare the project Logo and moodboard.
 ### Project plan & timeline
