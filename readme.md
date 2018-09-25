@@ -73,7 +73,7 @@ Here are the design wireframes
 ### Personal logo (optional)
 ![alt text](readmeImages/logo.png)
 ### Usability considerations
-Usability or user experience was one of the key considerations throughout the design and implementation stages of this portfolio website. A simple but easy to use portfolio sleek layout was selected and implemented to ensure that site visitors can accurately and quickly complete their top tasks while navigating the site.
+Usability or user experience was one of the key considerations throughout the design and implementation stages of this portfolio website. A simple but easy to use sleek portfolio layout was selected and implemented to ensure that site visitors can accurately and quickly complete their top tasks while navigating the site.
 ## Details of planning process
 A deeper understanding of key project requirements was undertaken by carefully going through the Portfolio guideline document to gauge the the project scope, and identified the targeted audience. A clear project scope of work was then developed followed by brainstorming and researching to select the desired page layout, and other relevant visual design effect.  Utilizing the project scope, the Design was then broken down into small deliverable tasks and cards with clear deadlines, and the trello web Application was used to aid with planning process. A Project was then created on the development PC as well as on Github including the associated  folders and Repos before moving on the project implementation stage. Project wireframes were hand sketched, and photoshop was used to prepare the project Logo and moodboard.
 ### Project plan & timeline
