@@ -21,6 +21,7 @@ Key features of this portfolio include the following at minimum:
 * Education & Work history
 * Links to Github, twitter, Google+, LinkedIn, Youtube
 
+In future, these features will be made dynamic to ensure maintainability & scalability. This is expected to happen next semester after learning Ruby on rails and Node & Reacts/Redux. 
 ### Sitemap
 https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
 ```xml
@@ -54,9 +55,6 @@ A range of Tech stack were used to develop a static application. This includes:
 * JavaScript to add desired behaviors to the Pages.
 * Git for version control & code repository
 * XML Sitemap Generator
-
-In future, dynamic features will be added to add dynamism & scalability to the App. This expected to happen after learning Ruby on rails and Node & Reacts in the next semesters. 
-
 ## Design documentation
 The design has been thoroughly documented from the initiation to final phase. All the relevant documents have been included in the final submission. Key technology tools such as Trello were used to aid with project management & planning.
 ### Design process
