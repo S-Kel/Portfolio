@@ -19,7 +19,7 @@ Key features of this portfolio include the following at minimum:
 * Personal Bio demonstrating personality & 
 * Professional skillset
 * Education & Work history
-* Links Github, twitter, Google+, LinkedIn, Youtube
+* Links to Github, twitter, Google+, LinkedIn, Youtube
 
 ### Sitemap
 https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
@@ -54,7 +54,7 @@ A range of Tech stack were used to develop a static application. This includes:
 * JavaScript to add desired behaviors to the Pages.
 * Git for version control & code repository
 * XML Sitemap Generator
-In future, dynamic features will be added to add dynamism & scalability to the App. This expected to happen after learning Ruby on rails and Node & Reacts in the next semesters. 
+>In future, dynamic features will be added to add dynamism & scalability to the App. This expected to happen after learning Ruby on rails and Node & Reacts in the next semesters. 
 
 ## Design documentation
 The design has been thoroughly documented from the initiation to final phase. All the relevant documents have been included in the final submission. Key technology tools such as Trello were used to aid with project management & planning.
