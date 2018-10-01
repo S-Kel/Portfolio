@@ -88,7 +88,7 @@ A deeper understanding of key project requirements was undertaken by carefully g
 ![alt text](readmeImages/Wireframe_2.png)
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
->The internet has come along way since its inception in the 1970s. The period between the 1980 and today has lead to key events  in the development of the internet including the development of TCP/IP, the invention of World Wide Web, the launching of the first website by CERB, the introduction of first dial-up service by Pipex, the launching of Britain's first internet news Website- tegraph.co.uk, the introduction of first peer-to-peer(P2P) Music file-sharing site by Napste, the launching of BBC TV and radio catch-up service iPlayer, and most importantly, the launching of first iPhone delivering the internet in your pocket.
+>The internet has come along way since its inception in the 1970s. The period between 1980s to today has lead to key events  in the development of the internet including the development of TCP/IP, the invention of World Wide Web, the launching of the first website by CERB, the introduction of first dial-up service by Pipex, the launching of Britain's first internet news Website- tegraph.co.uk, the introduction of first peer-to-peer(P2P) Music file-sharing site by Napste, the launching of BBC TV and radio catch-up service iPlayer, and most importantly, the launching of first iPhone delivering the internet in your pocket.
 
 
 2.  Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
