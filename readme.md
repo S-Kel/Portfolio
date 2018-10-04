@@ -41,7 +41,7 @@ https://github.com/S-Kel/Portfolio/blob/master/sitemap.xml
 </urlset>
 ```
 ### Screenshots
-![alt text](readmeImages/portfolio.png)
+![alt text](readmeImages/portfolio.PNG)
 ### Target audience
 The main target audience are:
 * Potential Employers
