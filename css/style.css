@@ -554,10 +554,22 @@ body {
     animation-duration: 1s;
 }
 
+.close,
 .closeBtn {
     color: #ccc;
     float: right;
     font-size: 30px;
+}
+
+.close {
+    color: var(--bg-danger);
+    background: inherit;
+    border: none;
+}
+
+.close:hover {
+    color: var(--bg-warning);
+    cursor: pointer;
 }
 
 .closeBtn:hover,
@@ -565,6 +577,10 @@ body {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.modal-body {
+    display: none;
 }
 
 @keyframes modalOpen {
