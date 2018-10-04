@@ -106,7 +106,7 @@ body {
 
 .masthead .masthead-body .downloadCV-button,
 .masthead .masthead-body .hireMe-button {
-    font-size: 1.1rem;
+    font-size: 1.00rem;
     padding: 5px 22px;
     letter-spacing: 0.15rem;
     text-align: center;
@@ -569,12 +569,9 @@ body {
         line-height: 2;
         font-size: 1.2rem;
     }
-    .masthead .header-break {}
     .masthead .masthead-body p {
-        /*		padding: 10 100px;*/
         width: 90%;
         padding: 0 25px;
-        /*		background: yellow;*/
     }
     .masthead .masthead-body .masthead-buttons {
         width: 70%;
