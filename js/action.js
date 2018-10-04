@@ -1,78 +1,32 @@
-// alert("H.....")
-(function() {
-    // Get modal element
-    var modal = document.getElementById('simpleModal');
 
-    // Get open modal button
-    var modalBtn = document.getElementById('modalBtn');
+var modalPopup = {
+	toggle: function(accordion){
+		accordion.forEach(function(elements) {
+		 elements.addEventListener('click', function(evt) {
+			var toggler = evt.currentTarget.children[1].classList.toggle('open');
 
-    // Get Hire Me modal Button
-    var hireMeBtn = document.getElementById('hireMe');
+			var rotIcon = evt.currentTarget.children[0].children[0].firstChild.classList.toggle('rotate');
+		 });
+	 });
+	},
+   display: function(name){
+	   console.log(`${name} says hellow`);
+	   console.log(this);
+   }
+}
 
-    // Get close button
-    var closeBtn = document.querySelector('.closeBtn');
+var module = modalPopup;
 
-    // Listen for outside clicked
-    window.addEventListener('click', function(evt) {
-        if (evt.target == modal) {
-            modal.style.display = 'none';
-        }
-    });
+(function(w, d, m){
+	/* Select accordion button class */
+	const accordion =document.querySelectorAll('.accordion-btn');
 
-    // Listen for open click event
-    modalBtn.addEventListener('click', function() {
-        modal.style.display = 'block';
-    });
-
-    // Listen for open click event
-    hireMeBtn.addEventListener('click', function() {
-        modal.style.display = 'block';
-    });
+	/* Toggle items */
+	m.toggle(accordion);
+	m.display('Amenemope');
+})(window, document, module);
 
 
-    // Listen for close click event
-    closeBtn.addEventListener('click', function() {
-        modal.style.display = 'none';
-    });
-})();
-
-(function() {
-    var trigger = document.querySelector('.accordion-toggle');
-    var accordion = document.querySelector('.accordion');
-
-    trigger.addEventListener('click', function() {
-        accordion.classList.toggle('open');
-        console.log(accordion);
-    });
-
-    var trigger2 = document.querySelector('.accordion-toggle2');
-    var accordion2 = document.querySelector('.accordion2');
-
-    trigger2.addEventListener('click', function() {
-        accordion2.classList.toggle('open');
-        console.log(accordion);
-    });
-
-    var trigger3 = document.querySelector('.accordion-toggle3');
-    var accordion3 = document.querySelector('.accordion3');
-
-    trigger3.addEventListener('click', function() {
-        accordion3.classList.toggle('open');
-        console.log(accordion);
-    });
-})();
 
 
-// document.querySelectorAll('.card-header').forEach(function(elements) {
-//     elements.addEventListener('click', function() {
-//         document.querySelectorAll('.card-body')[0].classList.toggle('show');
-//     });
-// });
 
-// const uniTrigger = document.querySelector('.uni-header');
-// var uniAccordion = document.querySelector('.card-body');
-
-// uniTrigger.addEventListener('click', function() {
-//     uniAccordion.classList.toggle('open');
-//     console.log(uniAccordion);
-// });
